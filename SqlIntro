@@ -1,0 +1,46 @@
+
+-- create database Course
+-- use Course
+
+-- create table Teachers(
+--     Id int,
+--     [Name] NVARCHAR(100),
+--     Surname NVARCHAR(100),
+--     Email NVARCHAR(100),
+--     Age int
+-- )
+
+-- create table Students(
+--     Id int,
+--     [FullName] NVARCHAR(100),
+--     Age int,
+--     Address NVARCHAR(200)
+-- )
+
+-- INSERT INTO Teachers (Id,[Name], Surname,Email,Age)
+-- VALUES (1, 'Gunel', 'Memmedova', 'gunel@gmail.com',25),
+--         (2, 'Ehmed', 'Eliyev', 'ahmed@gmail.com',30),
+--         (3, 'Orxan', 'Quliyev', 'orxan@gmail.com',15),
+--         (4, 'Eli', 'Atakisiyev', 'eli@gmail.com',18),
+--         (5, 'Leyla', 'Mirzeyeva', 'leyla@gmail.com',22)
+
+-- select * from Teachers
+
+
+-- INSERT INTO Students (Id,FullName, Age,[Address])
+-- VALUES (1, 'Fidan Bashirova',22, 'Hazi'),
+-- (2, 'Surac Ismayilov',23, 'Vasmoy'),
+-- (3, 'Kubra Memmedova',25, 'Xalqlar'),
+-- (4, 'Ismayil Afendizade',29, '28may'),
+-- (5, 'Pervin Mirzeyev',30, 'Bileceri')
+
+-- select * from Students
+
+
+-- Select COUNT(*) from Students
+
+-- Select Name,Surname from Teachers
+-- where Age>20
+
+-- select * from Teachers
+-- where Email LIKE '%d%'
